@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/batch-5/Projects/OMRApp/OMRApp/bin/Debug/net7.0-ios/iossimulator-x64/OMRApp.app/libSystem.IO.Compression.Native.dylib

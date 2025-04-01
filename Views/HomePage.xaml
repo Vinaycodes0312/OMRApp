@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OMRApp.Views.HomePage"
+             Title="Home">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,10" Spacing="5">
+            <Label Text="Welcome to OMR App!" TextColor="{StaticResource SecondaryColor}" FontSize="24" HorizontalOptions="Center" />
+            <Entry x:Name="ExerciseName" Placeholder="Enter the Chapter/Exercise Name" Keyboard="Chat"/>
+            <Entry x:Name="TotalQuestionsEntry" Placeholder="Enter total number of questions" Keyboard="Numeric"/>
+            <Button Text="Start OMR Test"
+                    BackgroundColor="{StaticResource PrimaryColor}"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    FontSize="20"
+                    Clicked="OnStartClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="OMRApp.app/OMRApp">
+      <BCSymbolMapName>OMRApp.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>OMRApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/batch-5/Projects/OMRApp/OMRApp/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>OMRApp.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/batch-5/Projects/OMRApp/OMRApp</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

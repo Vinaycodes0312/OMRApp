@@ -1,0 +1,37 @@
+﻿<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OMRApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Define a new primary color -->
+            <Color x:Key="PrimaryColor">#ff5733</Color> <!-- Change this to your preferred color -->
+            <Color x:Key="SecondaryColor">#333333</Color>
+            <Color x:Key="TertieryColor">white</Color>
+
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="Padding" Value="10,5"/>
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource SecondaryColor}" />
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#ff5733"/> <!-- Change background color -->
+                <Setter Property="BarTextColor" Value="White"/> <!-- Change title text color -->
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
